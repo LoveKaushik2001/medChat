@@ -1,0 +1,111 @@
+html{
+    height: 100%;
+    box-sizing: border-box;
+}  
+body {
+    font-family: "Open Sans", sans-serif;
+    text-align: center; 
+    box-sizing: border-box;
+    font-size: 120%;
+    height: 100%;
+    padding: 20px 10px;
+}
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover {
+  outline:0px !important;
+  -webkit-appearance:none;
+}
+.container {
+    max-width: 500px;
+    text-align: center;
+    margin: 0px auto;
+    background-color: rgb(241, 206, 241);
+    border-top: 50px solid rgb(179, 204, 226);
+    border-right: 20px solid rgb(179, 204, 226);
+    border-bottom: 50px solid rgb(179, 204, 226);
+    border-left: 20px solid rgb(179, 204, 226);
+    border-radius: 20px;
+    height: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+#chatArea{
+    height: 85%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+#message {
+    height: 15%;
+    width: 100%;
+}
+textarea {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 120%;
+    padding: .5em 10% .5em 2%;
+}
+#sendbtn{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+button {
+    position: relative;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+    margin: 1px;
+    font-size: 120%;
+    background-color: lightgrey;
+    border-radius: 8px;
+}
+
+.chat-container {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+  }
+  
+  .chat-wrapper {
+    position: relative;
+    height: 100%;
+    
+  }
+  
+  .chat-bot {
+    background-color:whitesmoke;
+    padding: 7px 15px;
+    float: left;
+    width: 60%;
+    margin: 0px 36% 15px 4%;
+    border-radius: 0px 20px 20px 20px;
+    box-sizing: border-box;
+    box-shadow: -3px 3px darkgrey;
+    min-height: 2em;
+  }
+  
+  .chat-user {
+    background-color: rgb(97, 233, 97);
+    padding: 7px 15px;
+    text-align: right;
+    border-radius: 20px 0px 20px 20px;
+    float: left;
+    width: 60%;
+    margin: 0px 4% 15px 36%;
+    box-sizing: border-box;
+    box-shadow: 3px 3px green;
+    min-height: 2em;
+  }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Link to its css-->
+    <link rel="stylesheet" type="text/css" href="medChat.css"> 
+    <title>Med Chat</title>
+</head>
+<body>
+    <div class="container">
+        <div id="chatArea">
+            <center style="background-color: whitesmoke;" id="start">Chat</center>
+            Hi<br>How can we help you ?<br>Please select your problem<br> 
+            <ul id="chatting">
+                <!--Start of chat-->
+                <li class="rd"><button id="d1" >Disease 1</button></li>
+                <li class="rd"><button id="d2" >Disease 2</button></li>
+                <li class="rd"><button id="d3" >Disease 3</button></li>
+                <li id="d4" class="rd"><button>Disease 4</button></li>
+                <li id="d5" class="rd"><button>Disease 5</button></li>
+                <li id="d6" class="rd"><button>Disease 6</button></li>
+                <li id="other" class="rd"><button>Other</button></li>
+            </ul>
+            <div id="pb"></div>
+        </div>
+        <div id="message">
+            <textarea id="text" class="textHere" type="text" autofocus="autofocus"></textarea>
+            <span id="response"></span>
+            <div id="sendbtn">
+               <button onclick="sendMessage()">&nbsp;↵&nbsp;</button>
+            </div>
+        </div>
+    </div>
+    <script src="declaration.js"></script>
+    <script src="medChat.js"></script>
+    <script src="user.js"></script>
+    <script src="chatWorking.js"></script>
+    <script src="AI.js"></script>
+</body>
+</html>
